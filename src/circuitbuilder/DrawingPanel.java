@@ -11,6 +11,8 @@ import javax.swing.border.LineBorder;
 /**
  * The DrawingPanel custom JPanel, acts as a canvas for the user to drop
  * logic gates and connections onto.
+ *
+ *  //TODO use Dependency Injection instead of making things static and communicating with the ButtonPanel class.
  */
 class DrawingPanel extends JPanel {
     /**
@@ -124,7 +126,7 @@ class DrawingPanel extends JPanel {
                     add(gateToAdd);
                     repaint();
                 }
-                //?
+                
                 repaint();
             }
         });
