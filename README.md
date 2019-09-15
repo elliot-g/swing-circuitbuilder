@@ -2,7 +2,7 @@
 
 CircuitBuilder is a simple application written in Java (Requires Java 5 or greater) for creating and simulating simple logic gate circuits.
 
-# Installation
+# Usage
 The program can be launched by:
 - Running the CircuitBuilder JAR as an executable.
 - Manually running the JAR:
@@ -19,7 +19,7 @@ The program can be launched by:
     java -cp . circuitbuilder.CircuitBuilder 
     ```
 
-# Usage
+# Help
 For help on how to use the software, refer to the help section of the software.
 
 # Documentation
