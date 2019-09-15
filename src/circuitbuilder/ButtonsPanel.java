@@ -7,6 +7,8 @@ import javax.swing.*;
 
 /**
  * The custom JPanel which houses all the gate buttons.
+ *
+ * TODO Use Dependency Injection instead of using static members in the DrawingPanel class.
  */
 public class ButtonsPanel extends JPanel implements ActionListener {
 
